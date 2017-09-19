@@ -1,0 +1,35 @@
+{
+  "name": "name",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "server": "webpack-dev-server --content-base build/"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "babel"
+  ],
+  "author": "dasosjt",
+  "license": "ISC",
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "mousetrap": "^1.6.1",
+    "path": "^0.12.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
